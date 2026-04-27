@@ -69,7 +69,7 @@ Dense(10, logits)          →  650 params
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Demo (ISSUE WITH IMAGE SIZES- working on fix)
 
 Try the app live on Hugging Face Spaces:  
 👉 **[https://huggingface.co/spaces/im17/cifar10-image-classifier](https://huggingface.co/spaces/im17/cifar10-image-classifier)**
