@@ -148,6 +148,10 @@ LABEL_EMOJI = {
 
 # ── Model path: looks one folder up from app/ for the .h5 file ────────────────
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "cifar10_cnn_model.h5")
+if not os.path.exists(MODEL_PATH):
+    MODEL_PATH = os.path.join(os.path.dirname(__file__), "cifar10_cnn_model.h5")
+if not os.path.exists(MODEL_PATH):
+    MODEL_PATH = "cifar10_cnn_model.h5"
 
 
 # ── Load model (cached so it only loads once) ─────────────────────────────────
