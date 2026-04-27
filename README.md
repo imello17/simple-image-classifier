@@ -160,6 +160,3 @@ MIT License — free to use and modify.
 
 ---
 
-## 👤 Author
-
-**[Your Name]** — FSE560, Arizona State University, April 2026
